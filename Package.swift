@@ -11,9 +11,9 @@ let package = Package(
         .library(name: "WalletConnect", targets: ["WalletConnect"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.1.0"),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", .exact("1.4.0")),
         .package(url: "https://github.com/mxcl/PromiseKit", from: "6.8.0"),
-        .package(url: "https://github.com/daltoniam/Starscream", from: "3.0.0"),
+        .package(url: "https://github.com/daltoniam/Starscream", from: "4.0.0"),
     ],
     targets: [
         .target(
